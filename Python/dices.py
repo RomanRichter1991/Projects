@@ -18,7 +18,7 @@ player_bet = 0
 player_guess = 0
 
 ### DICE ASCII ###
-dice_1 = ( """
+dice_1 = ("""
 /-------\\
 |       |
 |   1   |
@@ -26,7 +26,7 @@ dice_1 = ( """
 \-------\\
 """)
 
-dice_2 = ( """
+dice_2 = ("""
 /-------\\
 |      *|
 |   2   |
@@ -34,7 +34,7 @@ dice_2 = ( """
 \-------\\
 """)
 
-dice_3 = ( """
+dice_3 = ("""
 /-------\\
 |      *|
 |   3   |
@@ -42,7 +42,7 @@ dice_3 = ( """
 \-------\\
 """)
 
-dice_4 = ( """
+dice_4 = ("""
 /-------\\
 |*     *|
 |   4   |
@@ -50,7 +50,7 @@ dice_4 = ( """
 /-------/
 """)
 
-dice_5 = ( """
+dice_5 = ("""
 /-------\\
 |*     *|
 |   5   |
@@ -58,14 +58,13 @@ dice_5 = ( """
 /-------/
 """)
 
-dice_6 = ( """
+dice_6 = ("""
 /-------\\
 |*     *|
 |*  6  *|
 |*     *|
 /-------/
 """)
-
 
 ### GAMELOOP ###
 while (player_coins > 0):
@@ -118,3 +117,4 @@ while (player_coins > 0):
         player_coins = (int(player_coins) - int(player_bet))
 else:
     print("\nGame Over")
+    print("\nDice guessing game","by Roman Lukava")
